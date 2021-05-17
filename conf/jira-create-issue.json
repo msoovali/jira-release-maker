@@ -1,7 +1,7 @@
 {
     "update": {},
     "fields": {
-        "summary": "Testing one last time",
+        "summary": "{{SUMMARY}}",
         "project": {
             "key": "TEST"
         },
