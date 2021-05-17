@@ -25,6 +25,6 @@ Make sure in conf folder You have `settings.json` file with following structure.
 }
 ```
 ## How to run?
-In case You have go installed `go run cmd/cli/*.go`
-If You don't have go installed then there are prebuilt executables available in `builds` directory.
-Copy Your environment specific executable into project root dir, so that `conf` directory is accessible for application, then execute with `./your-executable` or on windows with `start your-executable.exe`
+In case You have go installed: `go run cmd/cli/*.go`\
+If You don't have go installed then there are prebuilt executables available under releases\
+Download Your environment specific executable and make sure that `conf` directory is accessible for application, then execute with `./your-executable` or on windows with `start your-executable.exe`
