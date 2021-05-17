@@ -9,7 +9,8 @@
 .history/
 
 # cloned projects dir
-./projects
-
+/projects
 # settings.json
-./conf/settings.json
+/conf/settings.json
+# builds
+/builds
