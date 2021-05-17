@@ -1,0 +1,71 @@
+{
+    "update": {},
+    "fields": {
+        "summary": "Testing one last time",
+        "project": {
+            "key": "TEST"
+        },
+        "issuetype": {
+            "name": "Release"
+        },
+        "components": [
+            {
+                "name": "{{COMPONENT}}"
+            }
+        ],
+        "description": {
+            "version": 1,
+            "type": "doc",
+            "content": [
+                {
+                    "type": "panel",
+                    "attrs": {
+                        "panelType": "info"
+                    },
+                    "content": [
+                        {
+                                "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "{{TEST_RELEASE_DATE}} T_{{PROJECT_NAME}}",
+                                    "marks": [
+                                        {
+                                            "type": "strong"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "hardBreak"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Env: Test {{PROJECT_NAME}}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "orderedList",
+                            "content": [
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Deploy: "
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    } 
+}

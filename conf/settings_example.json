@@ -1,0 +1,19 @@
+{
+  "atlassian_domain": "your-atlassian-domain",
+  "projects": [
+    {
+      "name": "how-you-call-project1",
+      "jira_component_name": "project1-jira-component",
+      "git_url": "git@bitbucket.org:project1-repository.git",
+      "release_branch_example": "release-branch-naming-example",
+      "main_branch": "master"
+    },
+    {
+      "name": "how-you-call-project2",
+      "jira_component_name": "project2-jira-component",
+      "git_url": "git@bitbucket.org:project2-repository.git",
+      "release_branch_example": "release-branch-naming-example",
+      "main_branch": "main"
+    }
+  ]
+}
